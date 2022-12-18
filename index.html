@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>W.</h1>
+      <nav id="nav">
+        <ul>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+      <svg
+        id="burger-menu"
+        class="burger-menu"
+        width="40"
+        height="17"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g fill="#00001A" fill-rule="evenodd">
+          <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+          <path d="M0 0h40v3H0z" />
+        </g>
+      </svg>
+      <svg
+        id="close-menu"
+        class="close-menu"
+        width="32"
+        height="31"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g fill="#00001A" fill-rule="evenodd">
+          <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
+          <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
+        </g>
+      </svg>
+    </header>
+
+    <main>
+      <div id="overlay" class="overlay"></div>
+      <section class="top">
+        <section class="active-acticle">
+          <img
+            src="./assets/images/image-web-3-desktop.jpg"
+            alt="web 3.0 poster"
+          />
+          <div class="active-acticle-text">
+            <h1>
+              The Bright <br />
+              Future of <br />
+              Web 3.0?
+            </h1>
+            <div class="text">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button>Read more</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="right-sidebar">
+          <h1>New</h1>
+          <div class="news">
+            <h2>Hydrogen VS Electric Cars</h2>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <hr />
+          <div class="news">
+            <h2>The Downsides of AI Artistry</h2>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <hr />
+          <div class="news">
+            <h2>Is VC Funding Drying Up?</h2>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <section class="featured">
+        <div class="featured-container">
+          <div class="item">
+            <div class="featured-image">
+              <img src="./assets/images/image-retro-pcs.jpg" alt="retro pcs" />
+            </div>
+            <div class="featured-text">
+              <h3>01</h3>
+              <h4>Reviving Retro PCs</h4>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="featured-image">
+              <img src="./assets/images/image-top-laptops.jpg" alt="laptop" />
+            </div>
+            <div class="featured-text">
+              <h3>02</h3>
+              <h4>Top 10 Laptops of 2022</h4>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="featured-image">
+              <img src="./assets/images/image-gaming-growth.jpg" alt="gaming" />
+            </div>
+            <div class="featured-text">
+              <h3>03</h3>
+              <h4>The Growth of Gaming</h4>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- javascript file -->
+    <script src="./index.js"></script>
+  </body>
+</html>
