@@ -21,13 +21,16 @@ Users should be able to:
 
 ### Screenshot
 
-- Desktop View
-  ![Desktop View](./assets/screenshots/desktop-view.png)
+## Desktop View
 
-- Mobile View
-  ![Mobile View](./assets/screenshots/mobile-view.png)
+![Desktop View](./assets/screenshots/desktop-view.png)
 
--Mobile Menu
+## Mobile View
+
+![Mobile View](./assets/screenshots/mobile-view.png)
+
+## Mobile Menu
+
 ![Mobile Menu](./assets/screenshots/mobile-menu.JPG)
 
 ### Links
